@@ -29,9 +29,7 @@ end
 
 describe 'What should be inside /dogs' do
   context 'inside of dogs/domestic should be' do
-    it "the herding dog" do
-      expect(File).to exist('./dogs/domestic/herding/herding_dog.jpg'), "\nDid you place herding_dog.jpg inside the /dogs/domestic/herding folder?"
-    end
+    
 
     it "the toy dog" do
       expect(File).to exist('./dogs/domestic/toy/toy_dog.jpg'), "\nDid you place toy_dog.jpg inside the /dogs/domestic/toy folder?"
